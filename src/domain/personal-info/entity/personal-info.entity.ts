@@ -1,7 +1,7 @@
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, JoinColumn } from "typeorm";
 import { Usuario } from "../../usuario/entity/usuario.entity";
 import { ContactoEmergencia } from "../../contacto-emergencia/entity/contacto-emergencia.entity";
-import { TipoSangre } from "src/domain/tipo-sangre/enity/tipo-sangre.entity";
+import { TipoSangre } from "src/domain/tipo-sangre/entity/tipo-sangre.entity";
 
 @Entity('personal_info')
 export class PersonalInfo {
